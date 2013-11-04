@@ -5,32 +5,68 @@
  * Licensed under MIT
  */
 
+/* Demo only */
+body {
+	font-family: "Segoe UI", Tahoma, Helvetica, "Helvetica Neue", Arial, sans-serif;
+	padding: 1em;
+}
+h1 {
+	font-size: 1.6em;
+	margin: 0 0 1.5em;
+}
+h1, h1 a {
+	color: #368512;
+}
+h1 span {	
+	font-weight: normal;
+	font-size: .9em;
+}
+/* end demo styles */
+
+
+/* --- Custom select --- */
+
+/* select and styled button should have the same font size */
+body, select {	
+	font-size: 1em; 
+}
+
 .custom-select {
 	position: relative;
-}
-.enhanced select {
-	opacity: 0.001;
 }
 .custom-select select {
 	position: absolute;
 	top: 0;
 	right: 0;
 	padding: 0;
+	opacity: 0.001;	
 }
-.custom-select .label-text {
-	padding-right: 1em;
+.custom-select select,
+.custom-select .btn-select {
+	/* the hidden select and the button should line up */
+	width: 20em; 
+	padding: .2em .5em;
+	font-weight: bold;
 }
 .custom-select .btn-select {
 	position: relative;
 	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: .2em;
+	box-shadow: 0 0 .4em rgba(200,200,200,.8);
 }
 .custom-select .btn-select:after {
 	content: " ";	
 	display: block;
+	background: url(arrow-solid-down.png) no-repeat 0 0; /* PNG for demo only; should be an SVG with PNG fallback in production */
 	width: 1em;
 	height: 1em;
 	position: absolute;
-	top: 0;
+	top: .2em;
 	right: 0;
 	background-position: 0 .5em;
+}
+.custom-select .label-text {
+	display: inline-block;
+	padding: 0 1em .3em 0;
 }
