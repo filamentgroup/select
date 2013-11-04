@@ -1,0 +1,36 @@
+/*
+ * select plugin
+ *
+ * Copyright (c) 2013 Filament Group, Inc.
+ * Licensed under MIT
+ */
+
+.custom-select {
+	position: relative;
+}
+.enhanced select {
+	opacity: 0.001;
+}
+.custom-select select {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 0;
+}
+.custom-select .label-text {
+	padding-right: 1em;
+}
+.custom-select .btn-select {
+	position: relative;
+	display: inline-block;
+}
+.custom-select .btn-select:after {
+	content: " ";	
+	display: block;
+	width: 1em;
+	height: 1em;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-position: 0 .5em;
+}
