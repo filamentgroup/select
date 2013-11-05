@@ -34,6 +34,12 @@
 					.before( $btn )
 					.bind( "change", function(){
 						$btn.html( getSelectValue() );
+					})
+					.bind( "focus", function(){
+						$btn.addClass( "btn-focus" );
+					})
+					.bind( "blur", function(){
+						$btn.removeClass( "btn-focus" );
 					});
 
 			}
