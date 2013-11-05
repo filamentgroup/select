@@ -52,7 +52,10 @@ body, select {
 	position: relative;
 	display: inline-block;
 	border: 1px solid #ccc;
-	border-radius: .2em;
+	border-radius: .2em;	
+}
+.btn-select.btn-focus {
+	border-color: #81B9F5;
 	box-shadow: 0 0 .4em rgba(200,200,200,.8);
 }
 .custom-select .btn-select:after {
