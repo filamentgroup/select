@@ -1,5 +1,6 @@
-select
-======
+# select
+
+[![Filament Group](http://filamentgroup.com/images/fg-logo-positive-sm-crop.png) ](http://www.filamentgroup.com/)
 
 Demo page here: http://filamentgroup.github.com/select/example.html
 
