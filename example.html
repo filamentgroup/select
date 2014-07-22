@@ -7,30 +7,23 @@
 	<script src="jquery.js"></script> <!-- To do: update with managed file -->
 	<script src="select.js"></script>
 	<link rel="stylesheet" href="select.css">
-	<style>
-		/* Logo */
-		.header {
-			background: #247201 url(http://filamentgroup.com/images/headerbg-new.jpg) no-repeat bottom left;
-		}
-		#fg-logo {
-			text-indent: -9999px;
-			margin: 0 auto;
-			width: 287px;
-			height: 52px;
-			background-image: url(http://filamentgroup.com/images/fg-logo-icon.png);
-		}
-		@media (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5){
-			#fg-logo {
-				background-size: 287px 52px;
-				background-image: url(http://filamentgroup.com/images/fg-logo-icon-lrg.png);
-			}
-		}
-	</style>
+	<link rel="stylesheet" href="/demo-head/demohead.css">
 </head>
 
 <body>
-	<div class="header">
-		<a href="http://filamentgroup.com/"><h1 id="fg-logo">Filament Group</h1></a>
+	<div class="demo-header">
+		<div class="company">
+			<img src="http://filamentgroup.com/images/fg-logo-positive-sm-crop.png">
+		</div>
+		<div class="details">
+			<p class="description-container">Demo of <span class="repo-name">Select</span>
+				<span class="description">Minimally custom-styled select element.</span>
+			</p>
+			<ul class="outbound-links">
+				<li><a href="https://github.com/filamentgroup/select">Code</a></li>
+				<li><a href="https://github.com/filamentgroup/select/issues">Issues</a></li>
+			</ul>
+		</div>
 	</div>
 	<h2>Custom select <span>(<a href="http://github.com/filamentgroup/select">github.com/filamentgroup/select</a>)</span></h2>
 
