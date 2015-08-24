@@ -39,7 +39,8 @@ body, select {
 	top: 0;
 	right: 0;
 	padding: 0;
-	opacity: 0.001;	
+	opacity: 0.001;
+	filter: alpha(opacity=.1);
 }
 .custom-select select,
 .custom-select .btn-select {
@@ -47,6 +48,8 @@ body, select {
 	width: 20em; 
 	padding: .2em .5em;
 	font-weight: bold;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
 }
 .custom-select .btn-select {
 	position: relative;

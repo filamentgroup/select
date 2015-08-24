@@ -22,7 +22,11 @@
 			var $s = $( this ),
 				$p = $s.parent().addClass( cl.select );
 
-			/* check if opacity value matches what's in the CSS to limit the enhancement to browsers that support opacity in the same way (otherwise the select may only partially enhance and be unusable) */
+			/* check if opacity value matches what's in the CSS to limit the
+			 * enhancement to browsers that support opacity in the same way
+			 * (otherwise the select may only partially enhance and be unusable) */
+
+			// Note that jQuery polyfills opacity in IE8
 			if ( $s.css( "opacity" ) >= 0.001 ) { 
 				var $l = $s.prev().addClass( cl.text ),				
 					getSelectValue = function(){
