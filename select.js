@@ -26,7 +26,7 @@
 			if ( $s.css( "opacity" ) >= 0.001 ) { 
 				var $l = $s.prev().addClass( cl.text ),				
 					getSelectValue = function(){
-						return $s[ 0 ].options[ $s[ 0 ].selectedIndex ].value;
+						return $s[ 0 ].options[ $s[ 0 ].selectedIndex ].innerHTML;
 					},
 					$btn = $( "<span class='"+ cl.btn +"'>" + getSelectValue() + "</span>" );
 
