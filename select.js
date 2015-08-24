@@ -1,7 +1,7 @@
 /*
- * select plugin
+ * select plugin, 2015-08-24
  *
- * Copyright (c) 2013 Filament Group, Inc.
+ * Copyright (c) 2015 Filament Group, Inc.
  * Licensed under MIT
  */
 
