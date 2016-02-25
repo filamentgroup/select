@@ -2,6 +2,8 @@
 
 [![Filament Group](http://filamentgroup.com/images/fg-logo-positive-sm-crop.png) ](http://www.filamentgroup.com/)
 
+If you’re looking for the CSS only version of the select plugin, check out [`select-css`](https://github.com/filamentgroup/select-css).
+
 Demo page here: http://filamentgroup.github.com/select/example.html
 
 It's near impossible to style an HTML `select` element with CSS, so we've come up with a simple solution: make it transparent using `opacity` and absolutely position it over an element styled to look like the `select`.  That way the user can still interact with the native element (they'll see the operating system's standard dropdown menu), and enhanced markup/styles are kept to a minimum.
